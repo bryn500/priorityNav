@@ -58,7 +58,6 @@
     }
 
     function navResized() {
-        var t0 = performance.now();
         var containerWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
         navs.forEach(function (nav) {
@@ -87,9 +86,6 @@
                 }
             }
         });
-
-        var t1 = performance.now();
-        console.log("Call to navResized took " + (t1 - t0) + " milliseconds.");
     }
 
     function watchNav(nav, overflow, container) {
