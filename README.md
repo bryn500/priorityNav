@@ -46,6 +46,7 @@
       <li>Item 15</li>
   </ul>
   <ul class="testOverflow"></ul>
+  <script src="priorityNav.js"></script>
 <script>
   var list = document.querySelector('.testList');
   var overflow = document.querySelector('.testOverflow');
